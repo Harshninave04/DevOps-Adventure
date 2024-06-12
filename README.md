@@ -4,3 +4,4 @@ This repository chronicles my exploration of the exciting world of DevOps. Join 
 ## Index
 ### Basic
 - [DevOps Basics](./Basic/Devops.md)
+- [DevOps Tools Guide](./Basic/Tools.md)
