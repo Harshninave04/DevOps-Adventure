@@ -9,3 +9,8 @@ This repository chronicles my exploration of the exciting world of DevOps. Join 
 ### Roadmap
 - [DevOps Roadmap](./Roadmap/Roadmap.md)
 - [Roadmap Flow](./Roadmap/DevOps_Roadmap.png)
+
+### LECTURE-1 (GIT)
+- [Commands](./Lecture_1/GIT/Commands.md)
+- [Introduction to GIT](./lecture_1/GIT/Intro.md)
+- [GIT_in_one_image](./Lecture_1/git-in-one-image.jpg)
