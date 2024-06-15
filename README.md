@@ -14,3 +14,6 @@ This repository chronicles my exploration of the exciting world of DevOps. Join 
 - [Commands](./Lecture_1/GIT/Commands.md)
 - [Introduction to GIT](./lecture_1/GIT/Intro.md)
 - [GIT_in_one_image](./Lecture_1/git-in-one-image.jpg)
+
+### LECTURE-2 (LINUX)
+- [Linux and it's commands](./Lecture_2/Linux_and_Commands.md)
