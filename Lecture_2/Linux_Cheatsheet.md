@@ -66,3 +66,4 @@ This guide provides a cheat sheet of 50+ essential Linux commands with explanati
 | ac          | Total connect time for all users or specified users. | `ac john` |
 
 
+That's a great list of commands! With this arsenal of 50+ Linux commands at your disposal, you're well-equipped to tackle server management, automation, and troubleshooting like a DevOps pro. Keep practicing and exploring to solidify your skills and become an even more valuable asset!
