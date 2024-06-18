@@ -23,3 +23,6 @@ This repository chronicles my exploration of the exciting world of DevOps. Join 
 - [SHELL SCRIPTING](./Lecture_3/Shell_Scripting.md)
 - [Shell Scripting essentials pdf](./Lecture_3/Assets/Linux%20Shell%20Scripting%20Essentials.pdf)
 - [Best Resource for bash scripting](https://www.zero2devops.com/blog/bash-scripting-cheat-sheet)
+
+### LECTURE-4 (NETWORKING)
+- [NETWORKING](./Lecture_4/Networking.md)
