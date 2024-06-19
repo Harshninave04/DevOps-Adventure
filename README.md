@@ -20,6 +20,7 @@ This repository chronicles my exploration of the exciting world of DevOps. Join 
 ### LECTURE-2 (LINUX)
 - [Linux and it's commands](./Lecture_2/Linux_and_Commands.md)
 - [Linux CheatSheet](./Lecture_2/Linux_Cheatsheet.md)
+- [Linux CheatSheet PDF](./Lecture_2/Linux_Cheatsheet1.pdf)
 
 ### LECTURE-3 (SHELL SCRIPTING)
 - [SHELL SCRIPTING](./Lecture_3/Shell_Scripting.md)
