@@ -31,3 +31,7 @@ This repository chronicles my exploration of the exciting world of DevOps. Join 
 - [NETWORKING](./Lecture_4/Networking.md)
 - [Resource for Networking](https://blog.kubesimplify.com/networking-fundamentals-for-devops)
 - [Networking Notes](./Lecture_4/Assets/Networking_Notes.pdf)
+
+### LECTURE-5 (CLOUD-AWS)
+- [Cloud Basics](./Lecture_5/Cloud_Fundamentals.md)
+- [AWS BASICS PDF](./Lecture_5/AWS_BASICS.pdf)
