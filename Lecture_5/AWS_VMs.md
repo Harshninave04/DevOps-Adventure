@@ -44,25 +44,34 @@ Overall, virtual machines provide a robust and adaptable computing environment, 
 
 AWS offers a free tier for EC2, allowing you to experiment with virtual machines at no cost. Here's a basic walkthrough to create your first VM:
 
-1. **Create an AWS Account:** Sign up for a free AWS account to get started.
+### 1. **Create an AWS Account:** Sign up for a free AWS account to get started.
+
 ![SignUp](./Assets/aws1.png)
 
-2. **Launch an EC2 Instance:**  Navigate to the Amazon EC2 console and choose "Launch Instance."
-![launchInstance1](./Assets/aws2_launch_instance.png)
-![launchInstance2](./Assets/aws2_launch_instance2.png)
+### 2. **Launch an EC2 Instance:**  Navigate to the Amazon EC2 console and choose "Launch Instance."
 
-3. **Select an AMI (Amazon Machine Image):** An AMI is a pre-configured software bundle containing an operating system and additional software. Choose an AMI that meets your needs, such as a Linux or Windows server image.
+- ![launchInstance1](./Assets/aws2_launch_instance.png)
+
+- ![launchInstance2](./Assets/aws2_launch_instance2.png)
+
+### 3. **Select an AMI (Amazon Machine Image):** An AMI is a pre-configured software bundle containing an operating system and additional software. Choose an AMI that meets your needs, such as a Linux or Windows server image.
+
 ![SelectAMI](./Assets/aws3_AMI.jpg)
 
-4. **Instance Type:** Select an instance type that provides the appropriate computing power and memory for your workload. AWS offers a variety of instance types optimized for different purposes.
-![InstanceType](./Assets/aws4_Instance_type.png)
-![KeyPair](./Assets/aws4_key_pair.png)
+### 4. **Instance Type:** Select an instance type that provides the appropriate computing power and memory for your workload. AWS offers a variety of instance types optimized for different purposes.
 
-5. **Storage and Security:** Configure storage options and security groups to define network access rules for your VM.
-![Security](./Assets/aws5_security.jpg)
-![Storage](./Assets/aws5_storage.jpg)
+- ![InstanceType](./Assets/aws4_Instance_type.png)
 
-6. **Review and Launch:** Double-check your configuration and launch your virtual machine instance.
+- ![KeyPair](./Assets/aws4_key_pair.png)
+
+### 5. **Storage and Security:** Configure storage options and security groups to define network access rules for your VM.
+
+- ![Security](./Assets/aws5_security.jpg)
+
+- ![Storage](./Assets/aws5_storage.jpg)
+
+### 6. **Review and Launch:** Double-check your configuration and launch your virtual machine instance.
+
 ![Review and launch](./Assets/aws6_review_and_launch.png)
 
 Once launched, you can connect to your VM and start using it! AWS provides various tools for managing and monitoring your virtual machines.
