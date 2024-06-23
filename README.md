@@ -34,4 +34,5 @@ This repository chronicles my exploration of the exciting world of DevOps. Join 
 
 ### LECTURE-5 (CLOUD-AWS)
 - [Cloud Basics](./Lecture_5/Cloud_Fundamentals.md)
+- [AWS_VirtulMachines](./Lecture_5/AWS_VMs.md)
 - [AWS BASICS PDF](./Lecture_5/AWS_BASICS.pdf)
