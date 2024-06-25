@@ -77,3 +77,44 @@ AWS offers a free tier for EC2, allowing you to experiment with virtual machines
 Once launched, you can connect to your VM and start using it! AWS provides various tools for managing and monitoring your virtual machines.
 
 
+# How to Connect EC2 instance from Windows Laptop using MobaXterm
+
+### Prerequisites
+- You need to have an Ubuntu EC2 instance running. [We have discussed above how to create an EC2 instance]
+- You need to have MobaXterm installed on your Windows computer.
+- You need to have your private key file for your EC2 instance.
+
+## Step 1: Download and install MobaXterm
+
+![MobaXterm](./Assets/mobaxterm_png.jpg)
+
+You can download MobaXterm from the MobaXterm website: https://mobaxterm.mobatek.net/. Once you have downloaded the installer, run it and follow the on-screen instructions to install MobaXterm.
+
+## Step 2: Open MobaXterm
+
+Once MobaXterm is installed, open it up. You should see the main MobaXterm window.
+
+## Step 3: Create a new SSH session
+
+To connect to your EC2 instance, you need to create a new SSH session. To do this, click on the Sessions menu and then click on New Session.
+
+## Step 4: Enter the connection details
+
+In the New Session dialog box, enter the following information:
+- Host: The public DNS name or IP address of your EC2 instance.
+- Username: The username you used when you created your EC2 instance.
+- Session type: SSH
+
+## Step 5: Browse to your private key file
+
+Click on the Advanced button and then browse to your private key file. Your private key file is a .pem file that you downloaded when you created your EC2 instance.
+
+## Step 6: Click OK
+
+Once you have entered all of the information, click on the OK button. MobaXterm will connect to your EC2 instance.
+
+## Step 7: You’re connected!
+
+![EC2 Terminal](./Assets/EC2_mobaxterm.jpg)
+
+If you have successfully connected to your EC2 instance, you should see a new terminal window open up. You can now start working on your EC2 instance!
