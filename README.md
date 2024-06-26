@@ -36,3 +36,7 @@ This repository chronicles my exploration of the exciting world of DevOps. Join 
 - [Cloud Basics](./Lecture_5/Cloud_Fundamentals.md)
 - [AWS_VirtulMachines](./Lecture_5/AWS_VMs.md)
 - [AWS BASICS PDF](./Lecture_5/AWS_BASICS.pdf)
+
+### LECTURE-6 (DOCKER)
+- [Docker Fundamentals](./Lecture_6/Docker.md)
+- [Docker Cheatsheet PDF](./Lecture_6/Assets/Docker_basic.pdf)
