@@ -39,6 +39,7 @@ Virtual machines (VMs) offer a powerful and versatile computing solution, provid
 
 Overall, virtual machines provide a robust and adaptable computing environment, ideal for various use cases in cloud deployments, enterprise environments, software development and testing, and any scenario requiring flexible and efficient IT resource management.
 
+--- 
 
 ## Getting Started with Your AWS VM
 
@@ -76,6 +77,7 @@ AWS offers a free tier for EC2, allowing you to experiment with virtual machines
 
 Once launched, you can connect to your VM and start using it! AWS provides various tools for managing and monitoring your virtual machines.
 
+---
 
 # How to Connect EC2 instance from Windows Laptop using MobaXterm
 
@@ -118,3 +120,95 @@ Once you have entered all of the information, click on the OK button. MobaXterm 
 ![EC2 Terminal](./Assets/EC2_mobaxterm.jpg)
 
 If you have successfully connected to your EC2 instance, you should see a new terminal window open up. You can now start working on your EC2 instance!
+
+---
+
+![AWS CLI](./Assets/awsCLI.png)
+
+# What is AWS CLI?
+
+*Welcome! This is a quick guide to the AWS Command Line Interface (AWS CLI), a handy tool for managing your AWS services directly from your terminal*
+
+Imagine having one single tool to control all your AWS resources, like S3 buckets, EC2 instances, and Lambda functions. That's the magic of AWS CLI! 
+
+Here's a breakdown of what it offers:
+
+* **Unified Tool:** Manage all your AWS services from a single command line interface. No more jumping between different consoles!
+* **Automation Powerhouse:** Tired of repetitive tasks? Write scripts using the AWS CLI to automate your deployments and configurations.
+* **Familiar Feel:** Use commands similar to what you know from the Linux or macOS terminal, making it easy to learn.
+* **Direct Access:** Interact directly with the public APIs of AWS services, giving you fine-grained control.
+
+## Why use AWS CLI?
+
+* **Efficiency:** Automate tasks and manage resources quickly, saving you valuable time.
+* **Flexibility:** Craft scripts to tailor your AWS environment to your specific needs.
+* **Power User Status:** Take your AWS skills to the next level with a powerful command line tool. 
+
+This is just a taste of what the AWS CLI can do. As you progress on your DevOps journey, this tool will become your trusted companion for managing your AWS infrastructure.
+
+## Installation
+To install AWS CLI, follow these steps:
+
+### On Windows
+- Download the AWS CLI MSI installer from the https://aws.amazon.com/cli/
+- Run the installer and follow the on-screen instructions.
+
+### On macOS
+1. Open a terminal and run the following command:
+```sh
+curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+```
+2. Run the downloaded package:
+```sh
+sudo installer -pkg AWSCLIV2.pkg -target /
+```
+### On Linux
+
+Open a terminal and run the following commands:
+```sh
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+```
+
+## Configuration
+
+After installing AWS CLI, you need to configure it with your AWS credentials. Use the following command to start the configuration process:
+
+```sh
+aws configure
+```
+
+You'll be prompted to enter your AWS Access Key ID, Secret Access Key, default region name, and default output format. If you don't have these credentials, you can generate them from the AWS Management Console.
+
+## Basic Commands
+
+Here are some basic AWS CLI commands to get you started:
+
+- **Check version**:
+  ```sh
+  aws --version
+  ```
+- **List S3 buckets**:
+  ```sh
+  aws s3 ls
+  ```
+- **Upload a file to S3**:
+  ```sh
+  aws s3 cp harsh.txt s3://harsh-bucket/
+  ```
+- **Describe EC2 instances**:
+  ```sh
+  aws ec2 describe-instances
+  ```
+
+These commands just scratch the surface of what you can do with AWS CLI. The CLI supports all AWS services, providing you with extensive capabilities to manage your infrastructure.
+
+## Useful Resources
+
+- [AWS CLI Documentation](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html)
+- [AWS CLI Command Reference](https://docs.aws.amazon.com/cli/latest/reference/)
+- [AWS CLI GitHub Repository](https://github.com/aws/aws-cli)
+
+Feel free to explore these resources to deepen your understanding of AWS CLI and its potential.
+
