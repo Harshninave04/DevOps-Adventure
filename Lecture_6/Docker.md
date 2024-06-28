@@ -180,3 +180,44 @@ docker run -d -p 8080:80 Todo-web-app
 Open your web browser and go to http://localhost:8080. You should see your web application running!
 
 ---
+
+# Docker Basic Commands: A Beginner's Guide
+
+
+1. **docker ps:** This command lists all running containers.
+
+2. **docker ps -a:** This command lists all containers, including running, stopped, and exited containers.
+
+3. **docker run [options] <image_name>**
+
+   * This command is the workhorse for running containers. 
+
+   * `<image_name>`: This specifies the name of the Docker image you want to run a container from.
+
+   * `[options]`: These are optional flags that customize how the container runs. Here are some common options:
+       * `-d`: Runs the container in detached mode, allowing you to continue using your terminal for other tasks.
+       * `-p <host_port>:<container_port>`: Maps a port on your host machine to a port inside the container. This allows you to access applications running in the container from your browser or other tools.
+       * `-v <host_directory>:<container_directory>`: Mounts a directory from your host machine to a directory inside the container. This allows you to share files and folders between your host and container.
+
+4. **docker stop <container_id>** or **docker stop <container_name>**: This command stops a running container. You can specify the container using its ID or name.
+
+5. **docker start <container_id>** or **docker start <container_name>**: This command starts a stopped container.
+
+6. **docker rm <container_id>** or **docker rm <container_name>**: This command removes a stopped container. **Be cautious!** This permanently deletes the container.
+
+7. **docker build -t <image_name> .**: This command builds a Docker image from a Dockerfile in the current directory.
+
+   * `<image_name>`: This specifies the name you want to tag the image with.
+
+8. **docker images**: This command lists all Docker images available on your system.
+
+9. **docker login**: This command logs you in to a Docker registry, such as Docker Hub, to push and pull images.
+
+10. **docker search <image_name>**: This command searches for Docker images on Docker Hub or other registries.
+
+**Additional Tips:**
+
+* Use `docker help <command>` to get detailed help for a specific command.
+* Refer to the official Docker documentation for more advanced usage and functionalities: [https://docs.docker.com/](https://docs.docker.com/)
+
+As you gain experience, you can explore more advanced commands and features to manage your containerized applications effectively.
