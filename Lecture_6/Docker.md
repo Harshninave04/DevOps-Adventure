@@ -109,3 +109,74 @@ Understanding Docker and its comparison with traditional VMs is essential for mo
 - [Comparing Containers and Virtual Machines](https://www.redhat.com/en/topics/containers/containers-vs-vms)
 
 ---
+
+# How to Dockerize Your HTML, CSS, JS Web Application?
+
+Docker is a powerful tool that helps developers build, share, and run applications quickly and efficiently. In this section, we'll cover the basic Docker commands and walk through the process of dockerizing a simple web application built with HTML, CSS, and JavaScript.
+
+## Step-by-Step Guide to Dockerize Your HTML, CSS, JS Web Application
+
+Let's say you have a web application with the following structure:
+
+```sh
+Todo-web-app/
+├── index.html
+├── styles.css
+└── script.js
+```
+
+### Step 1: Create a Dockerfile
+A Dockerfile is a text file that contains instructions for building a Docker image. Create a file named `Dockerfile` in your project directory with the following content:
+
+```sh
+# Use an official nginx image as the base image
+FROM nginx:latest
+
+# Copy the web application files to the nginx html directory
+COPY . /usr/share/nginx/html
+
+# Expose port 80 to the host
+EXPOSE 80
+```
+
+### *Explanation*:
+- `FROM nginx:latest`: Specifies the base image to use. Here, we are using the latest version of the Nginx web server.
+
+- `COPY . /usr/share/nginx/html`: Copies the contents of your current directory (your web application files) to the Nginx default directory for serving HTML files.
+
+- `EXPOSE 80`: Exposes port 80 on the container so you can access the web server from your host machine.
+
+### Step 2: Build the Docker Image
+
+Run the following command in your project directory to build the Docker image:
+
+```sh
+docker build -t Todo-web-app .
+```
+
+### *Explanation*:
+- `docker build`: The command to build a Docker image.
+
+- `-t Todo-web-app`: Tags the image with the name `Todo-web-app`.
+
+- `.`: Indicates the current directory where the Dockerfile is located.
+
+### Step 3: Run the Docker Container
+
+Once the image is built, you can run it as a container using this command:
+
+```sh
+docker run -d -p 8080:80 Todo-web-app
+```
+
+### *Explanation*:
+
+- `docker run`: The command to run a Docker container.
+- `-d`: Runs the container in detached mode (in the background).
+- `-p 8080:80`: Maps port 8080 on your host machine to port 80 in the container.
+- `Todo-web-app`: The name of the image to run.
+
+### Step 4: Access Your Application
+Open your web browser and go to http://localhost:8080. You should see your web application running!
+
+---
