@@ -39,6 +39,8 @@ This repository chronicles my exploration of the exciting world of DevOps. Join 
 
 ### LECTURE-6 (DOCKER)
 - [Docker Fundamentals](./Lecture_6/Docker.md)
+- [Docker Level 1](./Lecture_6/Docker_levelUP.md)
     - #### Docker Learning resources
     - [Docker Cheatsheet PDF](./Lecture_6/Assets/Docker_basic.pdf)
     - [Docker CheatSheet PDF 2](./Lecture_6/Assets/Docker_basic_2.pdf)
+    - [Documentation on Docker](https://k21academy.com/docker-kubernetes/docker-tutorial/)
