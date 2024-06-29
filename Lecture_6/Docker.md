@@ -17,6 +17,8 @@ Docker is an open-source platform that automates the deployment, scaling, and ma
 
 ## Basic Concepts
 
+![Docker Images](./Assets/Docker_Images.png)
+
 - **Dockerfile**: A text file with instructions to build a Docker image.
 - **Images**: Blueprints for containers. They contain the application code, libraries, and configuration files needed to run the application. Think of them as recipes for creating containers.
 
