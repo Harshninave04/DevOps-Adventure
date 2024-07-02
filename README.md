@@ -3,6 +3,8 @@ This repository chronicles my exploration of the exciting world of DevOps. Join 
 
 ![DevOps-Adventure](./Assets/DevOps.jpg)
 
+[Follow me on Linkedin](https://www.linkedin.com/in/harsh-ninave-03b665237/)
+---
 ## Index
 ### Basic
 - [DevOps Basics](./Basic/Devops.md)
