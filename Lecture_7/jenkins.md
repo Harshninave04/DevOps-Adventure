@@ -1,5 +1,5 @@
 
-[jenkins-image](./Assets/jenkins_hero.png)
+![jenkins-image](./Assets/jenkins_hero.png)
 
 # Jenkins for Beginners
 

@@ -46,3 +46,6 @@ This repository chronicles my exploration of the exciting world of DevOps. Join 
     - [Docker Cheatsheet PDF](./Lecture_6/Assets/Docker_basic.pdf)
     - [Docker CheatSheet PDF 2](./Lecture_6/Assets/Docker_basic_2.pdf)
     - [Documentation on Docker](https://k21academy.com/docker-kubernetes/docker-tutorial/)
+
+### LECTURE-7 (JENKINS)
+- [Jenkins Basics and Installation](./Lecture_7/jenkins.md)
