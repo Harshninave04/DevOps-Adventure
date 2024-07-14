@@ -48,4 +48,5 @@ This repository chronicles my exploration of the exciting world of DevOps. Join 
     - [Documentation on Docker](https://k21academy.com/docker-kubernetes/docker-tutorial/)
 
 ### LECTURE-7 (JENKINS)
-- [Jenkins Basics and Installation](./Lecture_7/jenkins.md)
+- [Jenkins Introduction and Installation](./Lecture_7/jenkins.md)
+- [Jenkins Basics and CI/CD](./Lecture_7/jenkins1.md)
