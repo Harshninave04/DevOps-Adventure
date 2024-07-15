@@ -59,11 +59,11 @@ To install Jenkins on an Ubuntu system, follow these steps:
 3. **Add the Jenkins repository and key**:
 
    ```
-   curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee \
-     /usr/share/keyrings/jenkins-keyring.asc > /dev/null
-   echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+   sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+   echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
      https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
      /etc/apt/sources.list.d/jenkins.list > /dev/null
+  
    ```
 
 4. **Install Jenkins**:
